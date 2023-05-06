@@ -1,5 +1,5 @@
 import { Header } from "./components/Header";
-import { Main } from "./components/Main";
+import { SearchBar } from './components/SearchBar'
 import { Container } from "./styles/Container";
 import GlobalStyles from "./styles/GlobalStyles";
 
@@ -8,7 +8,7 @@ function App() {
     <>
       <Container>
         <Header />
-        <Main />
+        <SearchBar />
       </Container>
       <GlobalStyles />
     </>

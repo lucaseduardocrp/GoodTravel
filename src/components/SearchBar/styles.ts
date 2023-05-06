@@ -7,48 +7,43 @@ export const Container = styled.div`
   height: 92vh;
   padding: 5rem 18rem;
   display: flex;
+  gap: 6rem;
   flex-direction: column;
   justify-content: start;
 
   h2{
-    margin-top: 8rem;
+    margin: 8rem 0;
     color: #ffffff;
     font-size: 5.4rem;
     font-weight: 700;
-    margin-bottom: 9rem;
   }
+
+  .titleContent{
+    font-size: var(--h3-font);
+    color: var(--white);
+    }
+
+     p{
+        font-size: var(--sm-font);
+        color: var(--grey);
+    }
 `;
 
-export const SearchBar = styled.div`
-    height: 6rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 1.4rem 0 3rem;
-    margin-top: 12rem;
-    background: rgba(255,255,255,0.25);
-    border-radius: 16px;
-
-    button{
-      color: var(--secundary);
-      font-size: 1.8rem;
-      font-weight: 500;
-      background: var(--white);
-      padding: 1.2rem 3rem;
-      border-radius: 20px;
-      transition: all .25s ease;
-
-      &:hover{
-        transform: scale(1.05);
-      }
-    }
-  `;
+export const Content = styled.div`
+  height: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.4rem 0 3rem;
+  /* margin-top: 6rem; */
+  background: rgba(255,255,255,0.25);
+  border-radius: 16px;
+`;
 
 export const SearchInput = styled.div`
   display: flex;
 
-  input{
-    width: 230px;
+  >input{
     display: flex;
     align-items: center;
     margin-left: 2rem;
@@ -64,7 +59,33 @@ export const SearchInput = styled.div`
   }
 `;
 
-export const DateInput = styled.div``;
+export const DateButton = styled.button`
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  font-size: var(--sm-font);
+  font-weight: 500;
+  color: var(--grey);
+`;
+
+export const SearchButton = styled.button`
+  color: var(--secundary);
+  font-size: 1.8rem;
+  font-weight: 500;
+  background: var(--white);
+  padding: 1.2rem 3rem;
+  border-radius: 20px;
+  transition: all .25s ease;
+
+  &:hover{
+    transform: scale(1.05);
+  }
+`;
+
+export const TopCategories = styled.div`
+  display: flex;
+  gap: 5rem;
+`;
 
 export const PeopleInfo = styled.div`
   display: flex;
