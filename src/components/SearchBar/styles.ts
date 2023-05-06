@@ -7,7 +7,7 @@ export const Container = styled.div`
   height: 92vh;
   padding: 5rem 18rem;
   display: flex;
-  gap: 6rem;
+  gap: 5rem;
   flex-direction: column;
   justify-content: start;
 
@@ -30,7 +30,7 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
-  height: 6rem;
+  height: 5.8rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -73,7 +73,7 @@ export const SearchButton = styled.button`
   font-size: 1.8rem;
   font-weight: 500;
   background: var(--white);
-  padding: 1.2rem 3rem;
+  padding: 1.2rem 3.8rem;
   border-radius: 20px;
   transition: all .25s ease;
 
@@ -84,7 +84,7 @@ export const SearchButton = styled.button`
 
 export const TopCategories = styled.div`
   display: flex;
-  gap: 5rem;
+  justify-content: space-between;
 `;
 
 export const PeopleInfo = styled.div`
@@ -116,3 +116,4 @@ export const SearchIcon = styled(FiSearch)`
 export const PersonIcon = styled(BsFillPersonFill)`
   ${iconsCss}
 `;
+

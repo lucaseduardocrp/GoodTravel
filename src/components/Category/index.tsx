@@ -1,16 +1,13 @@
-import { IconType } from 'react-icons';
-import { Container, Icon } from './styles';
+import { Container } from './styles';
 
 interface CategoryProps {
-  icon: IconType;
-  title: string;
+  iconImage: string;
 }
 
-export function Category({ icon, title }: CategoryProps) {
+export function Category({ iconImage }: CategoryProps) {
   return (
     <Container> 
-        {icon && <Icon>{icon}</Icon>}
-        <p>{title}</p>
+        <img src={iconImage} />
     </Container>
   );
 }

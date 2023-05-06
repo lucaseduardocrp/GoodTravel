@@ -1,6 +1,15 @@
-import { TbBeach } from 'react-icons/tb';
+import { Container, SearchInput, DateButton, SearchButton, TopCategories, PeopleInfo, Content,  CalendarIcon, SearchIcon, PersonIcon } from './styles';
+import Frame21 from '../../../public/Frame 21.svg';
+import Frame22 from '../../../public/Frame 22.svg';
+import Frame23 from '../../../public/Frame 23.svg';
+import Frame25 from '../../../public/Frame 25.svg';
+import Frame26 from '../../../public/Frame 26.svg';
+import Frame27 from '../../../public/Frame 27.svg';
+import Frame28 from '../../../public/Frame 28.svg';
+import Frame29 from '../../../public/Frame 29.svg';
+import Frame30 from '../../../public/Frame 30.svg';
+import Frame33 from '../../../public/Frame 33.svg';  
 
-import { Container, SearchInput, DateButton, SearchButton, TopCategories, PeopleInfo, Content, CalendarIcon, SearchIcon, PersonIcon } from './styles';
 import { Category } from '../Category';
 
 export function SearchBar() {
@@ -30,8 +39,16 @@ export function SearchBar() {
       </div>
 
       <TopCategories>
-        <Category icon={TbBeach} title='Somone Title' />
-        <Category icon={TbBeach} title='Somone Title' />
+        <Category iconImage={Frame21} />
+        <Category iconImage={Frame22} />
+        <Category iconImage={Frame23} />
+        <Category iconImage={Frame25} />
+        <Category iconImage={Frame26} />
+        <Category iconImage={Frame27} />
+        <Category iconImage={Frame28} />
+        <Category iconImage={Frame29} />
+        <Category iconImage={Frame30} />
+        <Category iconImage={Frame33} />
       </TopCategories>
      
     </Container>
