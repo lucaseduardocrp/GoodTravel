@@ -44,6 +44,7 @@ export const SearchInput = styled.div`
   display: flex;
 
   >input{
+    width: 22rem;
     display: flex;
     align-items: center;
     margin-left: 2rem;
