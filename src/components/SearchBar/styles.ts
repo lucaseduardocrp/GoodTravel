@@ -7,7 +7,7 @@ export const Container = styled.div`
   height: 92vh;
   padding: 5rem 18rem;
   display: flex;
-  gap: 5rem;
+  gap: 4rem;
   flex-direction: column;
   justify-content: start;
 
@@ -17,16 +17,11 @@ export const Container = styled.div`
     font-size: 5.4rem;
     font-weight: 700;
   }
+`;
 
-  .titleContent{
-    font-size: var(--h3-font);
-    color: var(--white);
-    }
-
-     p{
-        font-size: var(--sm-font);
-        color: var(--grey);
-    }
+export const TitleContent = styled.h3`
+  font-size: var(--h3-font);
+  color: var(--white);
 `;
 
 export const Content = styled.div`
@@ -86,6 +81,12 @@ export const SearchButton = styled.button`
 export const TopCategories = styled.div`
   display: flex;
   justify-content: space-between;
+  margin-bottom: 5rem;
+`;
+
+export const Slidebar = styled.div`
+  display: flex;
+  gap: 34.8rem;
 `;
 
 export const PeopleInfo = styled.div`

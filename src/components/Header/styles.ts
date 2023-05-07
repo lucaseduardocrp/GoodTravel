@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
 export const Heading = styled.header`
+  width: 100%;
+  position: fixed;
+
   nav{
     display: flex;
     justify-content: space-between;

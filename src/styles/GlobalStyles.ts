@@ -29,7 +29,7 @@ export default createGlobalStyle`
 
     --h1-font: 4rem;
     --h2-font: 4rem;
-    --h3-font: 3rem;
+    --h3-font: 3.6rem;
     --h4-font: 2rem;
     --p-font: 1.8rem;
     --sm-font: 1.6rem;
