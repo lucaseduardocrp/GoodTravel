@@ -1,16 +1,16 @@
-import { ReactNode } from 'react';
-
+import { OfferCards } from '../../components/OfferCards';
 import { Container } from './styles';
 
-interface OfferProps {
-  children: ReactNode;
-}
-
-export function Offer({ children }: OfferProps) {
+export function Offer() {
   return (
     <Container>
-      <h1>Offer</h1>
-      {children}
+      <h3>Offer</h3>
+
+      <div className="offerSlide">
+        <OfferCards src='../../../public/offer2' title='text ever since the 1500s, when ' subtitle='it to make a type specimen book.'/>
+        <OfferCards src='../../../public/offer2' title='text ever since the 1500s, when ' subtitle='it to make a type specimen book.'/>
+        <OfferCards src='../../public/offer2' title='text ever since the 1500s, when ' subtitle='it to make a type specimen book.'/>
+      </div>
     </Container>
   );
 }

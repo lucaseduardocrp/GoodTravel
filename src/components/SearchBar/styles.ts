@@ -61,20 +61,6 @@ export const DateButton = styled.button`
   color: var(--grey);
 `;
 
-export const SearchButton = styled.button`
-  color: var(--secundary);
-  font-size: 1.8rem;
-  font-weight: 500;
-  background: var(--white);
-  padding: 1rem 3rem;
-  border-radius: 12px;
-  transition: all .25s ease;
-
-  &:hover{
-    transform: scale(1.05);
-  }
-`;
-
 export const PeopleInfo = styled.div`
   display: flex;
 

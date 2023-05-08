@@ -1,4 +1,4 @@
-import { Container, SearchInput, DateButton, SearchButton, CategoryContent, Slidebar, PeopleInfo, Content, CalendarIcon, SearchIcon, PersonIcon } from './styles';
+import { Container, SearchInput, DateButton, CategoryContent, Slidebar, PeopleInfo, Content, CalendarIcon, SearchIcon, PersonIcon } from './styles';
   
 import { Category } from '../Category';
 import { SlideLocations } from '../SlideLocations';
@@ -22,7 +22,7 @@ export function SearchBar() {
           <span>, 2 adults</span>
         </PeopleInfo>
 
-        <SearchButton>Search</SearchButton>
+        <button className='btn'>Search</button>
       </Content>
 
       <CategoryContent>

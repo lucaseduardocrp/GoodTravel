@@ -21,6 +21,35 @@ export default createGlobalStyle`
     background: none;
   } 
 
+  .btn{
+    color: var(--secundary);
+    font-size: 1.8rem;
+    font-weight: 500;
+    background: var(--white);
+    padding: 1rem 3rem;
+    border-radius: 20px;
+    transition: all .25s ease;
+
+    &:hover{
+      transform: scale(1.05);
+    }
+  }
+
+  .btn2{
+    width: 13rem;
+    color: var(--white);
+    font-size: var(--sm-font);
+    font-weight: 500;
+    background: var(--secundary);
+    padding: 1rem 0;
+    border-radius: 20px;
+    transition: all .25s ease;
+
+    &:hover{
+      transform: translateX(4px);
+    }
+  }
+
   :root{
     --primary: #19DACE;
     --secundary: #009AED;
