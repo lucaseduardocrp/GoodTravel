@@ -3,43 +3,40 @@ import { BsFillPersonFill } from 'react-icons/bs'
 import { FiCalendar, FiSearch } from 'react-icons/fi';
 
 export const Container = styled.div`
-  width: 100%;
-  height: 92vh;
   padding: 5rem 18rem;
   display: flex;
-  gap: 4rem;
+  gap: 6rem;
   flex-direction: column;
   justify-content: start;
 
   h2{
-    margin: 8rem 0;
+    margin: 12rem 0 0rem 0;
     color: #ffffff;
-    font-size: 5.4rem;
+    font-size: var(--h2-font);
     font-weight: 700;
+  }
+
+  h3{
+    font-size: var(--h3-font);
+    color: var(--white);
+    margin-bottom: 4rem;
   }
 `;
 
-export const TitleContent = styled.h3`
-  font-size: var(--h3-font);
-  color: var(--white);
-`;
-
 export const Content = styled.div`
-  height: 5.8rem;
+  height: 5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1.4rem 0 3rem;
-  /* margin-top: 6rem; */
+  padding: 0 1rem 0 2rem;
   background: rgba(255,255,255,0.25);
-  border-radius: 16px;
+  border-radius: 12px;
 `;
 
 export const SearchInput = styled.div`
   display: flex;
 
   >input{
-    width: 22rem;
     display: flex;
     align-items: center;
     margin-left: 2rem;
@@ -69,24 +66,13 @@ export const SearchButton = styled.button`
   font-size: 1.8rem;
   font-weight: 500;
   background: var(--white);
-  padding: 1.2rem 3.8rem;
-  border-radius: 20px;
+  padding: 1rem 3rem;
+  border-radius: 12px;
   transition: all .25s ease;
 
   &:hover{
     transform: scale(1.05);
   }
-`;
-
-export const TopCategories = styled.div`
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 5rem;
-`;
-
-export const Slidebar = styled.div`
-  display: flex;
-  gap: 34.8rem;
 `;
 
 export const PeopleInfo = styled.div`
@@ -98,6 +84,20 @@ export const PeopleInfo = styled.div`
     margin-left: 10px;
   }
 `;
+
+export const CategoryContent = styled.div`
+  .categories{
+    display: flex;
+    justify-content: space-between;
+  }
+`;
+
+export const Slidebar = styled.div`
+  display: flex;
+  gap: 4rem;
+`;
+
+// Icons Elements
 
 const iconsCss = css`
   width: 20px;

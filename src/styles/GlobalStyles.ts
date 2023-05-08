@@ -28,7 +28,7 @@ export default createGlobalStyle`
     --white: #ffffff;
 
     --h1-font: 4rem;
-    --h2-font: 4rem;
+    --h2-font: 5.6rem;
     --h3-font: 3.6rem;
     --h4-font: 2rem;
     --p-font: 1.8rem;
